@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.ChetvertnyhAI.Sprint1.Task0.V18", "Tyuiu.ChetvertnyhAI.Sprint1.Task0.V18\Tyuiu.ChetvertnyhAI.Sprint1.Task0.V18.csproj", "{880DBDC7-646B-47FC-BDC8-704251DB08C0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.ChetvertnyhAI.Sprint1.Task0.V18.Lib", "Tyuiu.ChetvertnyhAI.Sprint1.Task0.V18.Lib\Tyuiu.ChetvertnyhAI.Sprint1.Task0.V18.Lib.csproj", "{FCB01BC0-9F59-4D3E-9125-CEEF57D71B9E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.ChetvertnyhAI.Sprint1.Task0.V18.Test", "Tyuiu.ChetvertnyhAI.Sprint1.Task0.V18.Test\Tyuiu.ChetvertnyhAI.Sprint1.Task0.V18.Test.csproj", "{17FA6678-462B-4AD2-A00E-9BA80D909770}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{880DBDC7-646B-47FC-BDC8-704251DB08C0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{FCB01BC0-9F59-4D3E-9125-CEEF57D71B9E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{17FA6678-462B-4AD2-A00E-9BA80D909770} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9D30BE5F-C240-4B49-8C83-0F1EBABFFEF8}
