@@ -10,7 +10,7 @@ namespace Tyuiu.ChetvertnyhAI.Sprint1.Task7.V26.Test
             DataService ds = new DataService();
             double x = 2;
             double y = 4;
-            double wait = 0.753902659;
+            double wait = 0.7539026588331511;
             var res = ds.Calculate(x, y);
             Assert.AreEqual(wait, res);
 
