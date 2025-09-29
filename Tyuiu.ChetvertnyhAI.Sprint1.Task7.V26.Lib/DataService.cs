@@ -5,7 +5,7 @@ namespace Tyuiu.ChetvertnyhAI.Sprint1.Task7.V26.Lib
     {
         public double Calculate(double x, double y)
         {
-            double res = (((Math.Pow(Math.Sin(x), 2)) + y) / (y + 1)) - (((x * y) - 12) / (34 + Math.Pow(x, 2)));
+            double res = ((Math.Sin(x*x) + y) / (y + 1)) - (((x*y)-12)/(34+(x*x)));
             return res;
         }
     }
