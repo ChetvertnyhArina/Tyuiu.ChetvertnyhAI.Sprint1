@@ -24,7 +24,9 @@ internal class Program
         Console.WriteLine("      sin x^2 + y     x * y - 12       ");
         Console.WriteLine("z =   -----------  -  ----------        ");
         Console.WriteLine("         y + 1         34 + x^2      ");
+
         double x, y;
+
         Console.WriteLine("Введите значение X:");
         x = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Введите значение Y:");
